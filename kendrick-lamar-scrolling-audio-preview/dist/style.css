@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap");
+
+
+.title {
+	user-select: none;
+	position: absolute;
+	z-index: 20;
+	font-family: "Major Mono Display", monospace;
+	color: white;
+	top: 16px;
+	left: 250px;
+	font-size: 38px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	word-spacing: -5px;
+	letter-spacing: -1px;
+	padding-bottom: 15px;
+	text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
+	text-align: center;
+  }
+  .title small {
+	font-size: 24px;
+	position: absolute;
+	top: 120%;
+	right: 0;
+  }
+  .title::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	opacity: 0.25;
+	right: 0px;
+	height: 3px;
+	width: 187px;
+	background: white;
+  }
